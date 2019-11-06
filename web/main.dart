@@ -7,12 +7,13 @@ import 'package:firebase/firebase.dart';
 
 main() async {
   await ui.webOnlyInitializePlatform();
+  // Supply your values here for firebase to be active
   initializeApp(
-      apiKey: "AIzaSyBFuePojxG8ixS1Drk8rciN44lc_jOEoTk",
-      authDomain: "tomisin-edc61.firebaseapp.com",
-      databaseURL: "https://tomisin-edc61.firebaseio.com",
-      storageBucket: "tomisin-edc61.appspot.com",
-      messagingSenderId: "1018450484935",
-      projectId: "tomisin-edc61");
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      projectId: "");
   app.main();
 }
