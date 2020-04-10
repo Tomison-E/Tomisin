@@ -7,17 +7,7 @@ class storage {
    static fb.StorageReference ref;
 
  static String  main() {
-   //https://firebasestorage.googleapis.com/v0/b/tomisin-edc61.appspot.com/o/CV%20TOMISIN%20ESAN%20JUNE.docx?alt=media&token=baec0e42-cd73-437b-a52c-ec603ebfa897
-
-    //Use for firebase package development only
-    // await config();
-
-/*    initializeApp(
-        apiKey: "AIzaSyBFuePojxG8ixS1Drk8rciN44lc_jOEoTk",
-        authDomain: "tomisin-edc61.firebaseapp.com",
-        databaseURL: "https://tomisin-edc61.firebaseio.com",
-        storageBucket: "",
-        projectId: "tomisin-edc61");*/
+  
 
 
     ref  = fb.storage().ref();
