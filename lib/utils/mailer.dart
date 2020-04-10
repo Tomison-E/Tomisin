@@ -7,15 +7,7 @@ import 'package:firebase/firestore.dart' as fs;
 import '../model/textValue.dart';
 
 main()  {
-  //Use for firebase package development only
- // await config();
 
-/*    initializeApp(
-        apiKey: "AIzaSyBFuePojxG8ixS1Drk8rciN44lc_jOEoTk",
-        authDomain: "tomisin-edc61.firebaseapp.com",
-        databaseURL: "https://tomisin-edc61.firebaseio.com",
-        storageBucket: "",
-        projectId: "tomisin-edc61");*/
 
     fs.Firestore store = firestore();
     fs.CollectionReference ref = store.collection("users");
